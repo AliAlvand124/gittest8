@@ -12,7 +12,7 @@ namespace git8.Controllers
         [HttpGet]
         public async Task<IActionResult> get()
         {
-            return BadRequest();
+            return Ok();
         }
     }
 }
